@@ -4,6 +4,7 @@
 }
 main{
     height: 700px;
+    display: flex;
     align-items: center;
     justify-content: center;
 }
@@ -12,7 +13,6 @@ main{
 .login{
     display: flex;
     justify-content: space-between;
-    
 }
 
 .login{
