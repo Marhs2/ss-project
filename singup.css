@@ -31,20 +31,21 @@ main{
 
 
 .logo-1{
-    width: 300px;
+    width: 200px;
     display: flex;
     justify-content: space-evenly;
-    padding: 10px 0;
+    margin: 0 auto;
+    text-align: center;
+
 }
 
 .logo{
     text-align: center;
     line-height: 40px;
-    border-radius: 50%;
-    border: 1px black solid;
-    width: 40px;
-    height: 40px;
+    width: 30px;
+    height: 30px;
 }
+
 
 .login-1 > fieldset{
     display: flex;
@@ -66,16 +67,21 @@ main{
     padding-left: 20px;
 }
 
+.login-1 > fieldset:last-child{
+    padding: 0px;
+}
+
 .login-1 h1{
     font-size: 40px;
 }
 
 .singup{
     width: 50%;
-    border-radius: 20px;
+    border-radius: 15   px;
     padding: 15% 0;
     text-align: center;
-    background-color:#F7FFE0;
+    background-color:#A1B4ED;
+    font-size: 25px;
 }
 
 .singup *{
@@ -97,9 +103,14 @@ main{
 #login{
     width: 200px;
     background-color: #F7FFE0;
+    padding: 0px;
+    transition: 0.5s;
+    cursor: pointer;
 }
 
 #login:hover{
     width: 200px;
     background-color: #f2fdd4;
+    transform: scale(1.1);
+    transition: 0.5s;
 }
