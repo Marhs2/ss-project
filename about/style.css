@@ -31,14 +31,14 @@ header{
 
 
 .prof{
+    background-image: url(../images/faker-2023.jpg);
+    background-size: cover;
 }
-
-
 
 .main{
     background-color: #A1B4ED;
-    height: 350px;
-    width: 800px;
+    height: 500px;
+    width: 900px;
     margin: 50px auto;
     border-radius: 10px;
     display: flex;
@@ -49,32 +49,35 @@ header{
 
 .main div{
     background-color: rgb(255, 255, 255);
-    width: 300px;
-    height: 200px;
+    width: 400px;
+    height: 300px;
     border-radius: 20px;
     padding: 20px;
 }
 
 .about{
     background-color: white;
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 250px;
     border-radius: 5px;
     text-align: center;
 }
 
+.about ul li{
+    font-size: 20px;
+}
 .select{
     display: flex;
     justify-content: center;
 }
 
 .select a{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #A1B4ED;
     margin: auto 100px;
     text-align: center;
-    line-height: 100px;
+    line-height: 150px;
     border-radius: 50px;
     cursor: pointer;
 }

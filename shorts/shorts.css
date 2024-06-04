@@ -38,13 +38,13 @@ header{
     display: flex;
     margin: 0 auto;
     align-items: center;
-
     margin-top: 10px;
 }
+
 .main .video {
     background-color: #A9A9F5;
     margin-right: 10px;
-    height: 700px;
+    height: 800px;
     width: 450px;
     border-radius: 5px;
 
