@@ -25,6 +25,19 @@ header{
     justify-content: space-around;
     margin: 10px 0;
 }
+
+
+.gnb ul li a:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.255);
+    color: white;
+
+}
+.gnb ul li a{
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
 .one {
     width: 50%;
     height: 60px;
@@ -75,6 +88,13 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    transition: 0.3s;
+}
+
+.L:hover{
+    background-color: rgba(0, 0, 0, 0.27);
+    transform: scale(1.03);
+    color: white;
+    transition: 0.3s;
 }
     
