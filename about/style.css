@@ -86,10 +86,17 @@ header{
 .select a{
     width: 150px;
     height: 150px;
-    background-color: #A1B4ED;
     margin: auto 100px;
+    background-color: rgb(185, 185, 185);
     text-align: center;
     line-height: 150px;
     border-radius: 50px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.select a:hover{
+    background-color: #a1b4ed60;
+    transform: scale(1.03);
+    transition: 0.3s;
 }
