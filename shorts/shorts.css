@@ -18,6 +18,8 @@ body{
 }
 
 header{
+    align-items: center;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     border-bottom: 2px rgba(128, 128, 128, 0.421) solid;   
@@ -73,7 +75,6 @@ header{
 
 .sidebar a{
     height: 50px;
-    border: 2px solid black;
     border-radius: 5px;
     line-height: 50px;
     margin: 30px 0;
@@ -81,8 +82,11 @@ header{
     transition: 0.3s;
 }
 
+svg{
+    height: 40px;
+}
+
+
 .sidebar a:hover{
-    background-color: white;
     transition: 0.3s;
-    padding: 10px 0;
 }

@@ -3,9 +3,11 @@
     padding: 0;
 }
 main{
-    height: 700px;
+    height: 1000px;
     display: flex;
     align-items: center;
+    background-image: url(./images/image.png);
+    background-size: cover;
     justify-content: center;
 }
 
@@ -20,7 +22,6 @@ main{
     border-radius: 5px;
     height: 500px;
     width: 1000px;
-    background-color: white;
     box-shadow: rgba(0, 0, 0, 0.449) 0 0 5px 5px; 
 }
 
@@ -101,7 +102,7 @@ main{
 
 #login{
     width: 200px;
-    background-color: #F7FFE0;
+    background-color: rgba(255, 255, 255, 0.803);
     padding: 0px;
     transition: 0.5s;
     cursor: pointer;
@@ -109,7 +110,7 @@ main{
 
 #login:hover{
     width: 200px;
-    background-color: #f2fdd4;
+    background-color: #f2fdd46c;
     transform: scale(1.1);
     transition: 0.5s;
 }

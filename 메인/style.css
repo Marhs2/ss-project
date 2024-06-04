@@ -14,6 +14,8 @@ a{
 }
 
 header{
+    height: 100px;
+    align-items: center;
     display: flex;
     justify-content: space-between;   
     border-bottom: 2px rgba(128, 128, 128, 0.421) solid;   
@@ -38,25 +40,7 @@ header{
     padding: 10px;
     transition: 0.3s;
 }
-.one {
-    width: 50%;
-    height: 60px;
-}
-.two {
-    display: flex;
-    flex-direction: row-reverse;
-    width: 50%;
-    height: 60px;
-}
 
-.t {
-    display: flex;
-    align-items: center;
-    margin-left: 30px;
-}
-.p{
-    margin-left: 20px;
-}
 .sign {
     width: 100px;
     height: 60px;

@@ -17,6 +17,8 @@ a{
 }
 
 header{
+    height: 100px;
+    align-items: center;
     display: flex;
     justify-content: space-between;   
     border-bottom: 2px rgba(128, 128, 128, 0.421) solid;   
@@ -41,6 +43,8 @@ header{
     padding: 10px;
     transition: 0.3s;
 }
+
+
 
 .prof{
     background-image: url(../images/faker-2023.jpg);
