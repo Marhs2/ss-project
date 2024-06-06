@@ -8,6 +8,11 @@ body{
 li,ul{
     list-style: none;
 }
+
+.amisu{
+    height: 150px;
+}
+
 a{
     text-decoration: none;
     color: black;
@@ -65,20 +70,21 @@ header{
     font-size: 40px;
     margin-top: 200px;
 }
-.L {
+.looknbtn {
     width: 150px;
     height: 60px;
-    background-color: beige     ;
+    background-color: beige;
     border-radius: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: 0.3s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
 
-.L:hover{
+.looknbtn:hover{
+    box-shadow: inset  -2px -2px 2px 0px rgba(0, 0, 0, 0.521);
     background-color: rgba(0, 0, 0, 0.27);
-    transform: scale(1.03);
     color: white;
     transition: 0.3s;
 }
