@@ -11,6 +11,11 @@ li,ul{
     list-style: none;
 }
 
+.amisu{
+    height: 150px;
+}
+
+
 a{
     text-decoration: none;
     color: black;
@@ -29,24 +34,35 @@ header{
     width: 500px;
     display: flex;
     justify-content: space-around;
+    align-items: center;
     margin: 10px 0;
 }
 
-.gnb ul li a:hover{
+.prof:hover{
     transition: 0.3s;
     background-color: rgba(0, 0, 0, 0.255);
     color: white;
 
 }
-.gnb ul li a{
+.prof{
     border-radius: 5px;
     padding: 10px;
     transition: 0.3s;
 }
+.nav{
+    border-radius: 5px;
+    padding: 30px;
+    transition:0.3s;
+}
+
+.nav:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.255);
+    color: white;
+}
 
 
-
-.prof{
+.king{
     background-image: url(../images/faker-2023.jpg);
     background-size: cover;
 }
@@ -103,4 +119,46 @@ header{
     background-color: #a1b4ed60;
     transform: scale(1.03);
     transition: 0.3s;
+}
+
+
+
+#prof{
+    width: 0;
+    height: 0;
+    padding: 0;
+}
+
+#prof img{
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+#prof img:hover{
+    transition: 0.3s;
+    background-color: rgb(148, 148, 148);
+}
+
+.profmain {
+    transition: 0.3s;
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+    border-radius: 5px;
+    right: 0;
+    top: 8%;
+    text-align: center;
+    line-height: 40px;
+    height: 250px;
+    width: 250px;
+    cursor: default;
+    background-color: white;
+}
+
+#prof:hover .profmain {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
 }

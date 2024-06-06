@@ -34,6 +34,20 @@ header{
     margin: 10px 0;
 }
 
+.prof:hover{
+    transition: 0.3s;
+    background-color: rgba(0, 0, 0, 0.255);
+    color: white;
+
+}
+
+.prof{
+    border-radius: 5px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+
 
 .nav:hover{
     transition: 0.3s;
@@ -85,6 +99,12 @@ header{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.521);
 }
 
+
+#prof{
+    width: 0;
+    height: 0;
+    padding: 0;
+}
 
 #prof img{
     width: 50px;
