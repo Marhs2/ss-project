@@ -75,7 +75,7 @@ main{
     width: 50%;
     padding: 15% 0;
     text-align: center;
-    background-color:#A1B4ED;
+    background-color: #f7ffe091;
     font-size: 25px;
 }
 
@@ -89,6 +89,7 @@ main{
     width: 200px;
     height: 50px;
     border-radius: 30px;
+    cursor: pointer;
 }
 
 .singup button:hover{
