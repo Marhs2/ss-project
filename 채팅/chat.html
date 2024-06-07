@@ -4,34 +4,59 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>채팅창</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./chat.css">
 </head>
 <body>
-    <header>
-        <div class="logo_class">
-            <img class="logo" src="./images/th.jpg" alt="">
-        </div>
-        <div class="imfor_class">
-            <div class="write">메인</div>
-            <div class="write">친구찾기</div>
-            <div class="write">쇼츠</div>
-            <div class="write">프로필</div>
-        </div>
+    <header class="header">
+        <img src="../images/image-removebg-preview.png" alt="logo" class="amisu">
+        <nav class="gnb">
+            <ul>
+                <li><a href="../메인/g.html" class="nav">메인</a></li>
+                <li><a href="../about/about.html" class="nav">친구 찾기</a></li>
+                <li><a href="../shorts/shorts.html" class="nav">쇼츠</a></li>
+                <li><a href="../채팅/chat.html" class="nav">채팅</a></li>
+                <li class="profile">
+                    <a href="#" id="prof1"><img src="../images/th-999160722-removebg-preview.png" alt="avatar"></a>
+                    <article class="profmain" >
+                        <ul>
+                            <li>
+                                <img src="../images/th-999160722-removebg-preview.png" alt="avatar">
+                            </li>
+                            <li>
+                                <a href="#" class="prof_btn">프로필 보기</a>
+                            </li>
+                            <li >
+                                <a href="#" class="prof_btn">프로필 수정</a>
+                            </li>
+                            <li >
+                                <a href="#" class="prof_btn">로그아웃</a>
+                            </li>
+                        </ul>
+                    </article>
+                </li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div class="chat">
-            <img class="propill" src="./images/th.jpg" alt="">
-            <div class="imformaition">
-                <div class="a">이름</div>
-                <div class="a">나이</div>
-                <div class="a">mbti</div>
-                <div class="a">취미</div>
-            </div>
-        </div>
-    </main>
+        <section class="chat_prof">
+            <article class="chat-about">
+                <img src="../images/롤_시즌10_티모.png" alt="timo">
+                <article class="about">
+                    <p>이름:티모 나이:14 MBTP:ENTP 취미:여행</p>
+                </article>
+            </article>
+
+            <article>
+                <form action="">
+                    <fieldset class="submit">
+                        <input type="text" placeholder="채팅" class="chatting" autofocus>
+                        <input  type="submit" value="보내기" class="chatting">
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+
+
+    </main>    
 </body>
-<footer>
-    <input type="text" class="message" autofocus >
-    <a href="#" class="LINK"><div class="send">보내기</div></a>
-</footer>
 </html>
