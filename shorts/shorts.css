@@ -50,8 +50,9 @@ header{
 }
 .nav{
     border-radius: 5px;
-    padding: 30px;
+    padding: 20px 25px;
     transition:0.3s;
+    border: 2px solid black;
 }
 
 .nav:hover{
@@ -137,9 +138,26 @@ svg{
     line-height: 40px;
     height: 250px;
     width: 250px;
-    cursor: default;
+    cursor: auto;
     background-color: white;
 }
+
+.profmain li{
+    margin: 10px 0;
+}
+
+.prof_btn{
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.prof_btn:hover{
+    background-color: rgba(173, 173, 173, 0.37);
+    transition: 0.3s;
+}
+
 
 #prof:hover .profmain {
     transition: 0.3s;
