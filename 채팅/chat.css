@@ -86,6 +86,7 @@ header{
     text-align: center;
     position: absolute;
     right: 0;
+    top: 11%;
     opacity: 0;
     visibility: hidden;
     transition:  0.3s;
@@ -121,7 +122,7 @@ header{
 
 .chat_prof{
     background-color: #f2fdd4;
-    height: 850px;
+    height: 900px;
 }
 
 .chat_prof img{
@@ -151,22 +152,21 @@ header{
 .chatting{
     border-radius: 10px;
     margin: 20px;
-    padding: 20px;
-    font-size: 20px;
+    padding: 40px;
+    font-size: 30px;
 }
 .chatting:nth-child(1){
-    flex-grow: 3;
+    flex-grow: 5;
 }
 
 .chatting:nth-child(2){
     flex-grow: 1;
     border: 2px solid black;
     text-align: center;
-    background: none;
+    background-color: rgb(247, 247, 199);
     cursor: pointer;
 }
 
 .chatting:nth-child(2):hover{
     background-color: #e2ff92;
-
 }
