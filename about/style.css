@@ -183,3 +183,8 @@ header{
     background-color: rgba(173, 173, 173, 0.37);
     transition: 0.3s;
 }
+
+.next
+{
+    font-size: 150px;
+}
