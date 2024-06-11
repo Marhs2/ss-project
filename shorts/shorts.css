@@ -82,6 +82,12 @@ header{
     border-radius: 5px;
 
 }
+
+iframe{
+    border-radius: 10px;
+
+}
+
 .main .sidebar {
     text-align: center;
     background-color: #D3D3D3;
