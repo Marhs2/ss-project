@@ -102,13 +102,17 @@ header{
 }
 
 svg{
+    transition: 0.3s;
     height: 40px;
 }
 
 
-.sidebar a:hover{
+.sidebar a svg:hover{
     transition: 0.3s;
+    background-color: #f7ffe0;
+    border-radius: 5px;
 }
+
 
 .profmain > ul > li > img {
     width: 50px;
@@ -164,4 +168,10 @@ svg{
 .prof_btn:hover {
     background-color: rgba(173, 173, 173, 0.37);
     transition: 0.3s;
+}
+
+
+.shorts{
+    height: 800px;
+    overflow: hidden;
 }
