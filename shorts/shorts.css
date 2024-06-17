@@ -181,3 +181,7 @@ svg{
     height: 800px;
     overflow: hidden;
 }
+
+.icon:active{
+    background-color: pink;
+}
