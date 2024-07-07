@@ -1,16 +1,23 @@
-        
 *{
     margin: 0;
     padding: 0;
 }
+
+
 li,ul{
     list-style: none;
 }
+
+.amisu{
+    height: 150px;
+}
+
 
 a{
     text-decoration: none;
     color: black;
 }
+
 
 body{
     display: flex;
@@ -67,6 +74,63 @@ header{
     border-radius: 5px;
 }
 
+.profmain > ul > li > img {
+    width: 50px;
+    height: 50px;
+    transition: 0.3s;
+    border-radius: 50%;
+}
+
+#prof1 img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+#prof1 img:hover {
+    transition: 0.3s;
+    background-color: rgb(148, 148, 148);
+}
+
+.profmain {
+    border-radius: 5px;
+    width: 250px;
+    height: 200px;
+    line-height: 55px;
+    background-color: white;
+    border: 2px solid black;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    top: 11%;
+    opacity: 0;
+    visibility: hidden;
+    transition:  0.3s;
+}
+
+.profmain ul{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.profile:hover .profmain {
+    opacity: 1;
+    visibility: visible;
+}
+
+.prof_btn {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+.prof_btn:hover {
+    background-color: rgba(173, 173, 173, 0.37);
+    transition: 0.3s;
+}
+
 .main {
     display: flex;
     margin: 0 auto;
@@ -113,69 +177,27 @@ svg{
 }
 
 
-.sidebar .icon:hover{
+.sidebar .icon:hover,.icon3:hover{
     transition: 0.3s;
     background-color: #f7ffe0;
     border-radius: 5px;
 }
 
-
-.profmain > ul > li > img {
-    width: 50px;
-    height: 50px;
+.back_next a{
     transition: 0.3s;
-    border-radius: 50%;
-}
-
-#prof1 img{
-    height: 50px;
-    border-radius: 50%;
-}
-
-
-#prof1 img:hover {
-    transition: 0.3s;
-    background-color: rgb(148, 148, 148);
-}
-
-.profmain {
-    border-radius: 5px;
-    width: 250px;
-    height: 250px;
-    line-height: 55px;
-    background-color: white;
-    border: 2px solid black;
+    display: block;
     text-align: center;
-    position: absolute;
-    right: 0;
-    top: 11%;
-    opacity: 0;
-    visibility: hidden;
-    transition:  0.3s;
+    margin: 10px 0;
+    border-radius: 20px;
+    border: 1px solid black;
+    background-color: rgb(148, 148, 148);
+    padding: 20px;
 }
 
-.profmain ul{
-    width: 250px;
-    display: flex;
-    flex-direction: column;
-}
-
-
-.profile:hover .profmain {
-    opacity: 1;
-    visibility: visible;
-}
-.prof_btn {
-    padding: 5px;
-    border: 2px solid black;
-    border-radius: 5px;
+.back_next a:hover{
     transition: 0.3s;
+    background-color: #fdfdfd;
 }
-.prof_btn:hover {
-    background-color: rgba(173, 173, 173, 0.37);
-    transition: 0.3s;
-}
-
 
 .shorts{
     height: 800px;

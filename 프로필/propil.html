@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>채팅창</title>
-    <link rel="stylesheet" href="./chat.css">
+    <title>메인</title>
+    <link rel="stylesheet" href="./propil.css">
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="../about/add friend.js"></script>
 </head>
 <body>
     <header class="header">
@@ -34,27 +36,27 @@
             </ul>
         </nav>
     </header>
-    
-    <main>
-        <section class="chat_prof">
-            <article class="chat-about">
-                <img src="../images/롤_시즌10_티모.png" alt="timo">
-                <article class="about">
-                    <p>이름:티모 나이:14 MBTP:ENTP 취미:여행</p>
-                </article>
-            </article>
 
-            <article>
-                <form action="">
-                    <fieldset class="submit">
-                        <input type="text" placeholder="채팅" class="chatting" autofocus>
-                        <input  type="submit" value="보내기" class="chatting">
-                    </fieldset>
-                </form>
-            </article>
-        </section>
+    <main class="propil_main">
+            <div class="full">
+        <div class="top">
+            <div class="prof-timo"></div>
+            <span class="text">티모</span>
+        </div>
+        <div class="bottom">
+            <a href="#" class="bottom-1"><div class="button1">친구</div>
+            <p>0</p></a>
+            <a href="#" class="bottom-1"><div class="button1">친한 친구</div>
+            <p>1명</p></a>
+            <a href="#" class="bottom-1"><div class="button1">게시물</div>
+            <p>3개</p></a>
+        </div>
 
+    </main>
 
-    </main>    
+ <main class="propil_main2">
+    <img src="../images/1.jpg" alt="게시물1" class="post1">
+    <img src="../images/2.jpg" alt="게시물2" class="post1">
+    <img src="../images/3.jpg" alt="게시물3" class="post1">
+ </main>
 </body>
-</html>

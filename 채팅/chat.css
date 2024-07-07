@@ -79,7 +79,7 @@ header{
 .profmain {
     border-radius: 5px;
     width: 250px;
-    height: 250px;
+    height: 200px;
     line-height: 55px;
     background-color: white;
     border: 2px solid black;
@@ -112,7 +112,6 @@ header{
     background-color: rgba(173, 173, 173, 0.37);
     transition: 0.3s;
 }
-
 
 .chat-about{
     display: flex;
