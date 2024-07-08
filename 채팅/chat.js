@@ -1,5 +1,3 @@
-$(function(){
-
     $("#send").on("click",function(){
 
         var msg = $("#input").val();
@@ -10,7 +8,3 @@ $(function(){
         $("#input").val("");
 
         })
-
-
-
-})  
