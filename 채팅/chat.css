@@ -121,7 +121,7 @@ header{
 
 .chat_prof{
     background-color: #f2fdd4;
-    height: 900px;
+    height: auto;
 }
 
 .chat_prof img{
@@ -168,4 +168,26 @@ header{
 
 .chatting:nth-child(2):hover{
     background-color: #e2ff92;
+}
+
+
+#topbox{
+    padding: 20px;
+}
+
+#box{
+    margin: 100px;
+}
+
+tr{
+    padding: 20px;
+}
+
+
+td{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+    font-size: 40px;
 }

@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>채팅창</title>
     <link rel="stylesheet" href="./chat.css">
+    <script src="../jquery-3.7.1.min.js"></script>
+    <script src="./chat.js"></script>
 </head>
 <body>
     <header class="header">
@@ -45,12 +47,15 @@
             </article>
 
             <article>
-                <form action="">
+                <div id="topbox">
+                    <table id="box">
+
+                    </table>    
+                </div>
                     <fieldset class="submit">
-                        <input type="text" placeholder="채팅" class="chatting" autofocus>
-                        <input  type="submit" value="보내기" class="chatting">
+                        <input type="text" placeholder="채팅" class="chatting" autofocus id="input">
+                        <input  type="submit" value="보내기" class="chatting" id="send">
                     </fieldset>
-                </form>
             </article>
         </section>
 

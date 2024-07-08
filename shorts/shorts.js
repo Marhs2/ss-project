@@ -1,5 +1,3 @@
-
-
 let numinres = 0;
 
 function increase() {
@@ -24,7 +22,7 @@ function slide2() {
             marginTop: pos + 'px'
         });
 }
-
+            
 $(document)
 .on('click','.icon2',increase)
 .on('click','.back',slide2)
